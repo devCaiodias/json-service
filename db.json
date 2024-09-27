@@ -1,9 +1,132 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "projects": [
+    {
+      "id": "ec98",
+      "name": "passa tempo",
+      "budget": "3050",
+      "categories": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 360,
+      "services": [
+        {
+          "name": "Meu novo serviço ",
+          "cost": "10",
+          "description": "Faz sso",
+          "id": "7ef82e3b-cece-421b-a3ba-8972d530aaca"
+        },
+        {
+          "name": "Meu novo serviço 2",
+          "cost": "100",
+          "description": "Faz sso",
+          "id": "531af5dd-30bd-4254-9e26-29f2ad7e5436"
+        },
+        {
+          "name": "Meu novo serviço 3",
+          "cost": "250",
+          "description": "Faz sso",
+          "id": "1d535649-4f4e-423c-b17d-66c1f64240c4"
+        }
+      ]
+    },
+    {
+      "id": "495b",
+      "name": "jogo da cobrinha",
+      "budget": "5000",
+      "categories": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 600,
+      "services": [
+        {
+          "name": "Dev Font",
+          "cost": "600",
+          "description": "Criar a interface do meu jogo ",
+          "id": "f766dff5-3e6f-4ba8-bb84-356193b5d007"
+        }
+      ]
+    },
+    {
+      "id": "ab90",
+      "name": "Site de Roupas ",
+      "budget": "2500",
+      "categories": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 500,
+      "services": [
+        {
+          "name": "Contratar dev fullStack",
+          "cost": "500",
+          "description": "Fazer o site completo para min ",
+          "id": "ac92f7b0-6bcd-4b27-8b73-d96ce3d1b752"
+        }
+      ]
+    },
+    {
+      "id": "e5f5",
+      "name": "Site de futebol",
+      "budget": "3000",
+      "categories": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "d8b0",
+      "name": "site de faculdade",
+      "budget": "6000",
+      "categories": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "45e7",
+      "name": "site brabo",
+      "budget": "5200",
+      "categories": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "5390",
+      "name": "Site de transito",
+      "budget": "2555",
+      "categories": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": []
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "categories": [
+    {
+      "id": "1",
+      "name": "Infra"
+    },
+    {
+      "id": "2",
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": "3",
+      "name": "Design"
+    },
+    {
+      "id": "4",
+      "name": "Planejamento"
+    }
+  ]
 }
